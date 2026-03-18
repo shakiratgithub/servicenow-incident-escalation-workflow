@@ -956,6 +956,7 @@ SLA Escalation Logic
 Table: Incident
 
 Condition: Category = Network
+<img width="1497" height="726" alt="image" src="https://github.com/user-attachments/assets/273e7c6c-f925-4e02-860b-8beac6850154" />
 
 
 
@@ -966,6 +967,7 @@ Condition: Category = Network
 Action: Update Record
 
 Assignment group → Network Team
+<img width="747" height="331" alt="image" src="https://github.com/user-attachments/assets/2862ae59-16da-4019-8e26-aa929a41b796" />
 
 
 
@@ -978,6 +980,7 @@ To: Network Team
 Subject: Incident Submitted
 
 Body: “A new incident has been automatically assigned. Please review and take action.”
+<img width="1493" height="799" alt="image" src="https://github.com/user-attachments/assets/c0c27fca-11c5-4ca1-b088-b8462247ce76" />
 
 
 
@@ -995,6 +998,7 @@ Behavior:
 If resolved → flow ends
 
 If not resolved → escalation path triggers
+<img width="1401" height="806" alt="image" src="https://github.com/user-attachments/assets/1fbbc2d1-f34d-4ae2-ae7c-74df58c53ba0" />
 
 
 
@@ -1004,13 +1008,16 @@ Action: Update Record
 Priority → High
 
 Work Notes → “Incident escalated due to no response within SLA”
+<img width="1495" height="744" alt="image" src="https://github.com/user-attachments/assets/5356f57f-1a97-4010-8f58-bc4c3d2fb234" />
 
 
 
-6. Escalation Notification
+6. Escalation Notification<img width="1401" height="806" alt="image" src="https://github.com/user-attachments/assets/0936064d-85bd-4d12-bc47-afbdab556eaa" />
+
 Action: Send Notification
 
 Template: Incident Priority Raised
+<img width="1491" height="745" alt="image" src="https://github.com/user-attachments/assets/ae2b67e9-2a07-4225-bab2-e2b7800ee1c6" />
 
 
 
